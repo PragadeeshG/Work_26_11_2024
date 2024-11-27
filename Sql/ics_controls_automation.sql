@@ -1,0 +1,16 @@
+create table if not exists ics_controls_automation(
+controls_code varchar(255) not null,
+is_automatiion_applicable varchar(255) null,
+requirements_workitem_url varchar(255) null,
+app_scoped varchar(255) null,
+release_feature varchar(255) null,
+audit_done char null,
+audit_type varchar(255) null,
+helm_release varchar(255) null,
+line_of_business varchar(255) null,
+po_approval_date varchar(255) null,
+uvt_url varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint ics_controls_automation_pk primary key(controls_code));

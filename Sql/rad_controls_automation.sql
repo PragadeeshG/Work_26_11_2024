@@ -1,0 +1,16 @@
+create table if not exists rad_controls_automation(
+controls_code varchar(255) not null,
+is_automatiion_applicable varchar(255) null,
+requirements_workitem_url varchar(255) null,
+po_approved varchar(255) null,
+inline_with_manual_flow varchar(255) null,
+trest_strategy_uploaded char null,
+test_strategy_url varchar(255) null,
+test_evidence_url varchar(255) null,
+deployment_mode varchar(255) null,
+live_date varchar(255) null,
+affected_countries varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint rad_controls_automation_pk primary key(controls_code));
